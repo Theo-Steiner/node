@@ -14,34 +14,48 @@ directory, see [the guide on benchmarks](../doc/contributing/writing-and-running
 
 ## Benchmark Directories
 
-| Directory       | Purpose                                                                                                          |
-| --------------- | ---------------------------------------------------------------------------------------------------------------- |
-| assert          | Benchmarks for the `assert` subsystem.                                                                           |
-| buffers         | Benchmarks for the `buffer` subsystem.                                                                           |
-| child\_process  | Benchmarks for the `child_process` subsystem.                                                                    |
-| crypto          | Benchmarks for the `crypto` subsystem.                                                                           |
-| dgram           | Benchmarks for the `dgram` subsystem.                                                                            |
-| domain          | Benchmarks for the `domain` subsystem.                                                                           |
-| es              | Benchmarks for various new ECMAScript features and their pre-ES2015 counterparts.                                |
-| events          | Benchmarks for the `events` subsystem.                                                                           |
-| fixtures        | Benchmarks fixtures used in various benchmarks throughout the benchmark suite.                                   |
-| fs              | Benchmarks for the `fs` subsystem.                                                                               |
-| http            | Benchmarks for the `http` subsystem.                                                                             |
-| http2           | Benchmarks for the `http2` subsystem.                                                                            |
-| misc            | Miscellaneous benchmarks and benchmarks for shared internal modules.                                             |
-| module          | Benchmarks for the `module` subsystem.                                                                           |
-| net             | Benchmarks for the `net` subsystem.                                                                              |
-| path            | Benchmarks for the `path` subsystem.                                                                             |
-| perf\_hooks     | Benchmarks for the `perf_hooks` subsystem.                                                                       |
-| process         | Benchmarks for the `process` subsystem.                                                                          |
-| querystring     | Benchmarks for the `querystring` subsystem.                                                                      |
-| streams         | Benchmarks for the `streams` subsystem.                                                                          |
-| string\_decoder | Benchmarks for the `string_decoder` subsystem.                                                                   |
-| timers          | Benchmarks for the `timers` subsystem, including `setTimeout`, `setInterval`, .etc.                              |
-| tls             | Benchmarks for the `tls` subsystem.                                                                              |
-| url             | Benchmarks for the `url` subsystem, including the legacy `url` implementation and the WHATWG URL implementation. |
-| util            | Benchmarks for the `util` subsystem.                                                                             |
-| vm              | Benchmarks for the `vm` subsystem.                                                                               |
+| Directory            | Purpose                                                                                                          |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| assert               | Benchmarks for the `assert` subsystem.                                                                           |
+| async\_hooks         | Benchmarks for the `async_hooks subsystem`                                                                       |
+| buffers              | Benchmarks for the `buffer` subsystem.                                                                           |
+| child\_process       | Benchmarks for the `child_process` subsystem.                                                                    |
+| crypto               | Benchmarks for the `crypto` subsystem.                                                                           |
+| dgram                | Benchmarks for the `dgram` subsystem.                                                                            |
+| diagnostics\_channel | Benchmarks for the `diagnostics_channel` subsystem.                                                              |
+| dns                  | Benchmarks for the `dns` subsystem.                                                                              |
+| domain               | Benchmarks for the `domain` subsystem.                                                                           |
+| error                | Benchmarks for the `error` subsystem.                                                                            |
+| es                   | Benchmarks for various new ECMAScript features and their pre-ES2015 counterparts.                                |
+| events               | Benchmarks for the `events` subsystem.                                                                           |
+| fixtures             | Benchmarks fixtures used in various benchmarks throughout the benchmark suite.                                   |
+| fs                   | Benchmarks for the `fs` subsystem.                                                                               |
+| http                 | Benchmarks for the `http` subsystem.                                                                             |
+| http2                | Benchmarks for the `http2` subsystem.                                                                            |
+| https                | Benchmarks for the `https` subsystem.                                                                            |
+| misc                 | Miscellaneous benchmarks and benchmarks for shared internal modules.                                             |
+| module               | Benchmarks for the `module` subsystem.                                                                           |
+| napi                 | Benchmarks for the `Node-API` formerly `N-API`.                                                                  |
+| net                  | Benchmarks for the `net` subsystem.                                                                              |
+| os                   | Benchmarks for the `os` subsystem.                                                                               |
+| path                 | Benchmarks for the `path` subsystem.                                                                             |
+| perf\_hooks          | Benchmarks for the `perf_hooks` subsystem.                                                                       |
+| permission           | Benchmarks for the `permission` subsystem.                                                                       |
+| policy               | Benchmarks for the `policy` subsystem.                                                                           |
+| process              | Benchmarks for the `process` subsystem.                                                                          |
+| querystring          | Benchmarks for the `querystring` subsystem.                                                                      |
+| readline             | Benchmarks for the `readline` subsystem.                                                                         |
+| streams              | Benchmarks for the `streams` subsystem.                                                                          |
+| string\_decoder      | Benchmarks for the `string_decoder` subsystem.                                                                   |
+| timers               | Benchmarks for the `timers` subsystem, including `setTimeout`, `setInterval`, .etc.                              |
+| tls                  | Benchmarks for the `tls` subsystem.                                                                              |
+| url                  | Benchmarks for the `url` subsystem, including the legacy `url` implementation and the WHATWG URL implementation. |
+| util                 | Benchmarks for the `util` subsystem.                                                                             |
+| V8                   | Benchmarks for the `V8` subsystem.                                                                               |
+| vm                   | Benchmarks for the `vm` subsystem.                                                                               |
+| webstreams           | Benchmarks for the `webstreams` subsystem.                                                                       |
+| worker               | Benchmarks for the `worker` subsystem.                                                                           |
+| zlib                 | Benchmarks for the `zlib` subsystem.                                                                             |
 
 ### Other Top-level files
 
